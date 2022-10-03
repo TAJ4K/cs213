@@ -5,5 +5,5 @@ This repository contains the code for the Bentley University CS213 course. The c
 - CSS
 - JavaScript
 
-## [Azure URL](cs213-004-f22-aa007.eastus2.cloudapp.azure.com)
+## [Azure URL](http://cs213-004-f22-aa007.eastus2.cloudapp.azure.com)
 Note: Azure page will be down 99% of the time
