@@ -1,71 +1,77 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-
-    <title> Web Programming </title>
-    <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Participation</title>
 </head>
-<style>
-    #p1, #p2 {
-        width: 20rem;
-        background: red;
-        border-color: orange;
-        border-width: 4px;
-        border-style: dashed;
-    }
-    #p3 {
-        width: 20rem;
-        background: red;
-        border-color: orange;
-        border-style: groove;
-    }
-
-    table, th, td {
-        border: 4px solid black;
-    }
-    th {
-        background: green;
-    }
-    tr {
-        background: beige;
-    }
-</style>
-
 <body>
-
-
-<p id="p1"> <b> HTML </b>: The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser </p>
-
-<p id="p2"> <b> CSS </b>: Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML </p>
-
-<p id="p3"> <b>Javascript</b>: is a high-level complied langauge used to create interactive dynamic and interactive web content like applications and browsers </p>
-
-
-<table id="t1">
-    <tr>
-        <th>  </th>
-        <th>HTML</th>
-        <th>CSS</th>
-        <th>Javascript</th>
-    </tr>
-    <tr>
-        <th> Purpose </th>
-        <td>Structure, Objects,things</td>
-        <td>Looks, Style</td>
-        <td>Actions</td>
-    </tr>
-    <tr>
-        <th> Grammar</th>
-        <td>Nouns</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-    </tr>
-</table>
-
-
+    <header><h1>Welcome to [Insert name] Job Application</h1></header>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <br>
+            <label for="mr">Title:</label>
+            <br>
+            <label for="mr">Mr.</label>
+            <input type="radio" id="mr" class="title" checked>
+            <br>
+            <label for="mrs">Mrs.</label>
+            <input type="radio" id="mrs" class="title">
+            <br>
+            <label for="dr">Dr.</label>
+            <input type="radio" id="dr" class="title">
+        </fieldset>
+        <fieldset>
+            <legend>Career</legend>
+            <label for="education">Highest Education Level</label>
+            <select id="education">
+                <option value="hs" selected>High School</option>
+                <option value="ba">Bachelor's</option>
+                <option value="ms">Master's</option>
+                <option value="dr">Doctorate</option>
+            </select>
+            <br>
+            <br>
+            <label for="major">Major</label>
+            <select id="major">
+                <option value="CIS" selected>CIS</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" id="eligible" name="eligible" value="eligible">
+            <label for="eligible">I am eligbile to work</label>
+            <br>
+            <input type="checkbox" id="enrolled" name="enrolled" value="enrolled">
+            <label for="enrolled">I am currently enrolled in school</label>
+            <br>
+            <input type="checkbox" id="relatedcourses" name="relatedcourses" value="relatedcourses">
+            <label for="relatedcourses">I have taken courses related to Business</label>
+            <br>
+            <br>
+            <label for="briefSkills">Talk briefly about your skills:</label>
+            <br>
+            <textarea id="briefSkills" name="briefSkills" rows="5" cols="50"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input id="phone" type="tel">
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
 </body>
-
 </html>
-
