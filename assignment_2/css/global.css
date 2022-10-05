@@ -1,0 +1,52 @@
+/* From Assignment 1 (moved) */
+body {
+  /* via https://marketing.istockphoto.com/blog/background-ideas/ */
+  background-image: url("../images/backgroundimage.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.centerImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Assignment 2 */
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+  border-bottom: black 1px solid;
+}
+
+/* Making the body easier to read*/
+p {
+  max-width: 50rem;
+  paragraph-spacing: 2em;
+  word-spacing: 0.15em;
+}
+
+img {
+  border: 2px inset black;
+}
+
+blockquote {
+  background-color: #ffffff;
+  color: #654700;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.textsmall {
+    font-size: 0.8em;
+}
