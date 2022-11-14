@@ -1,2 +1,5 @@
-let evencheck = (num) => num % 2 == 0;
-evencheck(require('prompt-sync')()("Enter a number: ")) ? console.log("The number you entered is even") : console.log("The number you entered is odd");
+let name = require("prompt-sync")()("Enter your name: ");
+console.log("Your name starts with", name[0]);
+console.log("Your name ends with", name[name.length-1])
+console.log("Your name has", name.length, "letters in it");
+
